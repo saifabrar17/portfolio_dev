@@ -1,0 +1,508 @@
+/*
+font-family: 'Montserrat', sans-serif;
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #204f87;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+/*BANNER START*/
+.banner {
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    position: relative;
+}
+
+.banner h2 {
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.hg {
+    min-height: 100vh;
+    align-items: center;
+ 
+}
+
+.icon {
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 30px;
+    animation: updown 1s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes updown {
+    0% {
+        top: 65%;
+    }
+
+    100% {
+        top: 70%;
+    }
+}
+
+/*Who we are start*/
+.who-we-are {
+    min-height: 70vh;
+
+}
+
+.wwr-content {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.wwr-content h1 {
+    font-size: 30px;
+    color: #204f87;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.wwr-content h1::before {
+    content: '';
+    left: 0;
+    right: 20px;
+    width: 20px;
+    height: 3px;
+    top: -10px;
+    position: absolute;
+    background-color: #f2622b;
+    transition: 0.5s all ease-in-out;
+}
+.who-we-are:hover .wwr-content h1::before{
+    width: 60px;
+}
+.wwr-content p {
+    text-align: justify;
+    font-size: 16px;
+    width: 70%;
+    color: #b0b0b1;
+    font-weight: 300;
+}
+
+.wre-img {
+    margin-top: 80px;
+}
+
+/*WHAT EWE DO START*/
+.what-we-do {
+    min-height: 80vh;
+    margin-top: 100px;
+    background-color: #F7F8F8;
+    padding-top: 50px;
+    background-image: url(../img/what-we-do-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 850px 400px;
+}
+
+.wwd-header {
+    position: relative;
+}
+.wwd-header span{
+    height: 3px;
+    width: 20px;
+    background: #f2622b;
+    margin: auto;
+    display: block;
+    transition: 0.4s all ease-in-out;
+}
+.what-we-do:hover .wwd-header span{
+    width: 60px;
+}
+.wwd-header h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #204f87;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.wwd-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.inner {
+    position: relative;
+    width: 80%;
+}
+
+.inner img {
+    display: block;
+    width: 100%;
+}
+
+.item .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(40, 55, 126, 0), rgba(40, 55, 126, 1));
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.item:hover .overlay {
+    opacity: 1;
+}
+
+.item .overlay .fa {
+    height: 50px;
+    width: 50px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+
+}
+
+.item:hover .overlay .fa {
+    -webkit-animation: arrowIcon 0.8s ease;
+    animation: arrowIcon 0.8s ease;
+}
+
+@keyframes arrowIcon {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.item .overlay h4 {
+    color: #ffffff;
+    margin-top: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+.item:hover .overlay h4 {
+    animation: galleryText 0.8s ease;
+}
+
+@keyframes galleryText {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* ATORNEY START*/
+.atorney {
+    background-image: url(../img/atorney-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 110vh;
+}
+
+.atorney-main {
+    padding-top: 120px;
+}
+.atorney-left {
+    padding-left: 20px;
+}
+.atorney-ex{
+    position: relative;
+}
+.atorney-ex-right{
+    padding-left: 50px;
+}
+.atorney-left span{
+    height: 3px;
+    width: 20px;
+    background: #f2622b;
+    display: inline-block;
+    transition: 0.4s all ease-in-out;
+}
+.atorney:hover .atorney-left span{
+    width: 60px;
+}
+.atorney-left h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+.atorney-left p {
+    font-size: 16px;
+    color: #929dcf;
+    width: 400px;
+    text-align: justify;
+}
+.atorney-left a{
+    color: #f2622c;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+.atorney-flex {
+    display: flex;
+}
+
+.atorney-content {
+    position: relative;
+    width: 180px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.overlay-image {
+    display: block;
+    width: 100%;
+}
+
+.overlay-atorney {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(40, 55, 126, 0), rgba(40, 55, 126, 1));
+    ;
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.overlay-atorney>* {
+    transform: translateY(20px);
+    transition: transform 0.5s;
+}
+
+.overlay-atorney:hover {
+    opacity: 1;
+}
+
+.overlay-atorney:hover>* {
+    transform: translateY(0);
+}
+
+/* ATORNEY END*/
+/*Language Start*/
+
+
+.language{
+    min-height: 80vh;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+.language:hover .wwd-header span{
+    width: 60px;
+}
+.language-content{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.language-content h4{
+    color: #28377E;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+}
+.language-content p{
+    color: #b1b0b1;
+    font-size: 16px;
+    text-align: justify;
+}
+.language-content a{
+    text-decoration: none;
+    color: #f2622c;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/*Contact US Start*/
+.contact-us{
+    background-color: #28377E;
+    padding: 80px;
+}
+.contact-us:hover span{
+    width: 60px;
+}
+.contact-us-header h1{
+    color: white;
+}
+.contact-us-form{
+    margin: auto;
+  width: 50%;
+  width: 500px;
+}
+.contact-us-form form input::placeholder{
+    color: white;
+}
+.contact-us-form form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #4759a7;
+    width: 100%;
+    outline: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+}
+.contact-us-form form textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #4759a7;
+    width: 100%;
+    height: 100px;
+    outline: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+}
+.contact-us-form form textarea::placeholder{
+    color: white;
+}
+.contact-us-form form button{
+    border: none;
+    height:40px ;
+    width: 120px;
+    background-color: #F2622C;
+    color: white;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    transition: 0.3s all ease-in-out;
+}
+.contact-us-form form button:hover{
+    background-color: transparent;
+    border: 2px solid #F2622C;
+}
+/*--------footer ------------------*/
+.footer{
+    background-color: #0D1234;
+    padding: 20px;
+}
+
+.footer-left p{
+    color: white;
+    font-size: 16px;
+    margin: 0;
+
+}
+.social-icons{
+    margin: 0;
+    padding: 0;
+}
+.social-icons i{
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    transition: 0.3s all ease-in-out;
+}
+.social-icons i:hover{
+    color: rgb(194, 194, 194);
+}
+.social-icons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.atorney-content {
+    position: relative;
+ 
+}
+.atorney-content img{
+
+}
+.atorney-flex .overlay-atorney {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(40, 55, 126, 0), rgba(40, 55, 126, 1));
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.5s ease;
+    height: 200px;
+    width: 500px;
+}
+.atorney-content:hover .overlay-atorney{
+    opacity: 1;
+    }
+.overlay-atorney h3{
+    color: white;
+}
+
+
+*/

@@ -1,0 +1,471 @@
+@media (min-width: 768px) and (max-width:1024px) {
+    .try-1 img {
+        width: 100%;
+    }
+
+    .try-3 img {
+        width: 100%;
+    }
+
+    .try-2 img {
+        width: 100%;
+    }
+    .tasty-heading h5 {
+        width: 25%;
+    }
+    .reservation{
+        padding: 50px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    /*-------*/
+}
+
+/*---------------------------------------------------------*/
+
+
+@media (min-width: 576px) and (max-width:768px) {
+    .today {
+        padding: 10px;
+    }
+
+    .banner-left {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .banner-left p {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    .banner-right img {
+        width: 70%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /*try*/
+    .try-1 {
+
+        text-align: center;
+    }
+
+    .try-2 {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .try-3 {
+
+        text-align: center;
+    }
+
+
+    .try-position p {
+        left: 25px;
+    }
+
+    .try-position h5 {
+        left: 25px;
+    }
+
+    .try-position-2 p {
+        top: 15px;
+        left: 25px;
+    }
+
+    .try-position-2 h5 {
+        top: 45px;
+        left: 25px;
+
+    }
+
+    .try-position-3 h5 {
+        top: 45px;
+        left: 25px;
+    }
+
+    .try-position-3 p {
+        top: 15px;
+        left: 25px;
+    }
+
+    /*tasty*/
+    .tasty-heading h5 {
+        width: 35%;
+    }
+
+    .reservation{
+        padding: 0;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    /*form*/
+    .form-input {
+        text-align: center;
+    }
+
+    .form-input input {
+        width: 100%;
+        margin-left: 0;
+
+    }
+    .form-input-2 input {
+        width: 100%;
+        margin-left: 0;
+
+    }
+    .form-input-2 {
+        text-align: center;
+
+    }
+
+    /*FOOTER BG*/
+    .footer-bg {
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 50%;
+    }
+
+    .footer-i {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .margin-custom{
+        margin-top: 50px;
+    }
+    .footer-right {
+        margin-top: 20px;
+    }
+
+    /*-----------------------------------------*/
+}
+
+@media (min-width: 426px) and (max-width:576px) {
+
+    .banner-left {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .banner-left h2 {
+        margin-bottom: 0;
+    }
+
+    .banner-left p {
+        display: inline-block;
+        margin: auto;
+        font-size: 20px;
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+
+    .banner-right img {
+        width: 70%;
+    }
+
+
+    /*---------------------*/
+    .today {
+        padding-bottom: 0;
+    }
+
+    .try-1 {
+
+        text-align: center;
+    }
+
+    .try-2 {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .try-3 {
+
+        text-align: center;
+    }
+
+    .try-position p {
+        left: 20px;
+
+    }
+
+    .try-position h5 {
+        left: 20px;
+
+    }
+
+    .try-position-2 p {
+        top: 15px;
+        left: 20px;
+        font-size: 20px;
+    }
+
+    .try-position-2 h5 {
+        top: 45px;
+        left: 20px;
+        font-size: 25px;
+    }
+
+    .try-position-3 h5 {
+        top: 45px;
+        left: 20px;
+    }
+
+    .try-position-3 p {
+        top: 15px;
+        left: 20px;
+    }
+
+    /*TASTY*/
+    .tasty-heading h5 {
+        width: 40%;
+        height: 40px;
+    }
+
+    .events {
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /*FORM*/
+    .reservation {
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .form-input {
+        text-align: center;
+    }
+
+    .form-input input {
+        width: 80%;
+        margin-left: 0;
+    }
+    .form-input-2 {
+        text-align: center;
+    }
+
+    .form-input-2 input {
+        width: 80%;
+    }
+
+    /*FOOTER*/
+    .footer-bg {
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 50%;
+    }
+
+    .footer-i {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .margin-custom {
+        margin-top: 30px;
+    }
+
+    .footer-right ul li {
+        font-size: 25px;
+    }
+
+    .footer-p {
+        font-size: 25px;
+    }
+
+    .owl-theme .owl-nav {
+        display: none;
+    }
+
+
+    /*------------------------*/
+}
+
+@media (min-width: 0px) and (max-width:426px) {
+
+    .nav-head-a {
+        width: 70%;
+    }
+
+    .banner {
+        min-height: 60vh;
+    }
+
+    .banner-left {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .banner-left p {
+        font-size: 11px !important;
+        font-weight: bold;
+    }
+
+    .banner-left h1 {
+        font-size: 60px;
+    }
+
+    .banner-left h2 {
+        margin-bottom: 0;
+        font-size: 50px;
+    }
+
+    .banner-left p {
+        display: inline-block;
+        margin: auto;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .banner-right img {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    .today {
+        padding: 0;
+    }
+
+    .try-1 {
+        margin-top: 20px;
+    }
+
+    .try-1 img {
+        width: 100%;
+    }
+
+    .try-2 {
+        margin-top: 20px;
+    }
+
+    .try-2 img {
+        width: 100%;
+    }
+
+    .try-3 img {
+        width: 100%;
+    }
+
+    .try-position p {
+        left: 10px;
+    }
+
+    .try-position h5 {
+        left: 10px;
+        top: 45px;
+        font-size: 30px;
+    }
+
+    .try-position-2 p {
+        top: 15px;
+        left: 10px;
+    }
+
+    .try-position-2 h5 {
+        top: 45px;
+        left: 10px;
+        font-size: 16px;
+
+    }
+
+    .try-position-3 h5 {
+        top: 45px;
+        left: 10px;
+        font-size: 16px;
+    }
+
+    .try-position-3 p {
+        top: 15px;
+        left: 10px;
+    }
+
+    /*Tasty*/
+    .tasty {
+        padding: 0px;
+        padding-top: 20px;
+    }
+
+    .tasty-heading h5 {
+
+        width: 60%;
+        height: 40px;
+
+    }
+
+    .tasty-heading h1 {
+        color: #42200B;
+        font-size: 25px;
+        font-family: 'Alfa Slab One', cursive;
+        text-transform: uppercase;
+        padding: 20px;
+    }
+    .owl-dots {
+        display: inline-block;
+        position: absolute;
+        bottom: 20px;
+        left: 40%;
+    }
+    .events {
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .reservation {
+        padding: 0;
+        margin-top: 50px;
+
+    }
+
+    .reservation-heading h5 {
+        font-size: 24px;
+    }
+
+    .reservation-heading h1 {
+        font-size: 28px;
+    }
+
+    .form-input input {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0px !important;
+    }
+
+    .form-input-2 input {
+        width: 100%;
+
+    }
+
+    #fat {
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 75%;
+    }
+
+    .footer-i {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .margin-custom {
+        margin-top: 20px;
+    }
+
+    /*--------------*/
+}

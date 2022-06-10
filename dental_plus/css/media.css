@@ -1,0 +1,91 @@
+@media (min-width: 0px) and (max-width:575px) {
+    .logo {
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    .responsive-top-head {
+        display: none;
+    }
+
+    .banner{
+        text-align: center;
+    }
+    .banner-left{
+        padding-top: 40px;
+    }
+    .banner-left h2{
+        font-size: 20px;
+    }
+
+    .welcome{
+        text-align: center;
+        padding-top: 40px;
+    }
+    .welcome-left img{
+        margin-bottom: 20px;
+    }
+    .welcome-right h1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .meet-doctor {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      
+    }
+    .nav-btn{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    .services {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+    .services-part{
+        margin-left: 20px;
+    }
+    .pricing {
+        padding-top: 20px;
+        padding-bottom: 20px;
+       
+    }
+    .pricing-part{
+        margin-left: 20px;
+    }
+    .clients{
+        padding-top: 20px;
+        
+    }
+
+}
+
+@media (min-width: 576px) and (max-width:767px){
+    .logo {
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    .responsive-top-head {
+        display: none;
+    }
+    .nav-btn{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    .banner{
+        text-align: center;
+        
+    }
+    .banner-left{
+        padding-top: 40px;
+    }
+    .welcome-right{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+
+}

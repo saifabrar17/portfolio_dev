@@ -1,0 +1,376 @@
+@media (min-width: 0px) and (max-width:575px) {
+
+    /*BANNER START*/
+    .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .banner-content {
+        min-height: 70vh;
+    }
+
+    .banner-left p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-left p span {
+        text-align: center;
+
+    }
+
+    .banner-left h4 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .banner-left .banner-left-button button {
+        margin-top: 10px;
+    }
+
+    .banner-left-button {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    /*BANNER END*/
+    .overview-heading {
+        padding-top: 20px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 5px;
+    }
+
+    .overview-heading p {
+        font-weight: bold;
+        padding: 5px;
+    }
+
+    .overview-heading h4 {
+        font-size: 30px;
+    }
+
+    .overview-content {
+        margin-top: 20px;
+    }
+
+    .overview-pad {
+        padding-bottom: 0;
+    }
+
+    /* OVERVIEW*/
+
+    .device-image {
+        width: 100%;
+        text-align: center;
+    }
+
+    .device-image img {
+        width: 50%;
+    }
+
+    .device-content {
+        padding-top: 10px;
+        min-height: 60vh;
+    }
+
+    .device-content p {
+        text-align: center;
+    }
+
+    .device-content h4 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .device-content span {
+        display: none;
+    }
+
+    /*DEVICE*/
+    .customise {
+        padding-top: 10px;
+    }
+
+    .customise-content {
+        margin-top: 10px;
+    }
+
+    .customise-content h4 {
+        font-size: 30px;
+    }
+
+    .customise-img img {
+        margin: 40px;
+    }
+
+    /* testimonial heading*/
+    .testimonial-heading h4 {
+        font-size: 30px;
+    }
+
+    /*theme*/
+    .theme {
+        text-align: center;
+    }
+
+    .theme h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .theme-button {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .theme button {
+        height: 35px;
+        width: 140px;
+        font-size: 14px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+    /*PRICING*/
+    .pricing{
+        padding: 20px;
+    }
+    .pricing span{
+        display: none;
+    }
+    .pricing-heading h4 {
+        font-size: 30px;
+    }
+    .pricing-content{
+        margin-left: 15px;
+    }
+    .pricing-amount {
+        border-bottom: 1px solid #999999;
+        transition: 0.4s all ease-in-out;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .pricing-custom-p p {
+        color: #999999;
+        padding-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .pricing-content {
+        margin-bottom: 15px;
+    }
+
+    .pricing-content h5 {
+        font-size: 16px;
+    }
+
+    .contact-content {
+        margin-top: 0;
+        height: 170px;
+        padding-top: 0;
+    }
+    /*FORM*/
+    .contact {
+        padding: 0;
+    }
+
+    .contact-heading {
+        padding-top: 20px;
+    }
+
+    .contact-form {
+        background-color: #15141A;
+        width: 100%;
+        height: 420px;
+        position: sticky;
+        text-align: center;
+    }
+
+    .contact-form input {
+        width: 100%;
+    }
+
+    .contact-form textarea {
+        width: 100%;
+        margin-left: 0;
+        height: 120px;
+    }
+
+    #custom-input {
+        margin-left: 0;
+    }
+
+
+    /*FOOTER*/
+    .footer-text p {
+        font-size: 14px;
+    }
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+    /*Banner*/
+    .phone {
+        display: none;
+    }
+
+    .banner-content {
+        min-height: 60vh;
+    }
+
+    .banner-content .col-md-9 {
+        padding-top: 0;
+        display: block;
+        margin: auto;
+    }
+
+    .banner-left {
+        display: block;
+        margin: auto;
+    }
+
+    .banner-left p {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .banner-left h4 {
+        text-align: center;
+    }
+
+    .banner-left-button {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .over-pad {
+        margin-top: 0px;
+    }
+
+
+    .responsive-display-none {
+        display: block;
+
+    }
+
+    /*OVERVIEW*/
+    .overview-heading {
+        padding: 20px;
+    }
+
+    /*OVERVIEW*/
+    /*DEVICE*/
+    .device-content {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    .rev-device {
+        flex-direction: column-reverse;
+    }
+
+    .device-content {
+        min-height: 60vh;
+    }
+
+    .device-image {
+        text-align: center;
+    }
+
+    .device-img-w {
+        width: 40%;
+        margin-top: 0;
+    }
+
+    /*DEVICE*/
+    /*CUSTOMISE*/
+    .customise {
+        padding-top: 0;
+    }
+
+    .customise-content {
+        margin-top: 30px;
+    }
+
+    /*CUSTOMISE*/
+
+    /*THEME PART*/
+    .theme h4 {
+        margin-bottom: 10px;
+    }
+
+    .theme {
+        text-align: center;
+    }
+
+    /*THEME PART*/
+    /*PRICING*/
+    .pricing {
+        padding: 20px;
+        min-height: 90vh;
+    }
+
+    .pricing-content-tab {
+        margin-top: 0px;
+    }
+
+    .pricing-content {
+        margin-bottom: 10px;
+    }
+
+    /*PRICING*/
+
+
+    /*CONTACT US*/
+    .contact {
+
+        padding: 30px;
+    }
+
+    /*CONTACT US*/
+    /*form*/
+    .contact-form {
+        transform: translateX(-50%);
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .contact-form {
+        transform: translateX(-50%);
+    }
+
+    .phone {
+        left: 50%;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .contact-form {
+        transform: translateX(-50%);
+    }
+    .phone {
+       
+        left: 53%;
+        width: 50%;
+    }
+    .device-content{
+        padding-top: 70px;
+    }
+    .theme-button{
+        text-align: center;
+    }
+}

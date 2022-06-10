@@ -1,0 +1,568 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-header {
+    padding-top: 5px;
+}
+
+.top-item {
+    display: flex;
+}
+
+.top-item i {
+    font-size: 35px;
+    margin-top: 8px;
+    margin-right: 15px;
+    color: #F69469;
+}
+
+.top-item p {
+    margin: 0;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#top-item-color {
+    color: #A0A0A0;
+}
+
+/* NAVBAR START */
+.nav_bar {
+    background-color: #00CCE1;
+}
+
+.navbar {
+    padding: 0 !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 30px;
+    position: relative;
+}
+
+.navbar-nav .nav-link::before {
+    content: '';
+    position: absolute;
+    left: 6px;
+
+    bottom: 5px;
+    width: 0%;
+    height: 2px;
+    background: white;
+    transition: 0.4s all ease-in-out;
+}
+
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    right: 6px;
+    bottom: 5px;
+    width: 0%;
+    height: 2px;
+    background: white;
+    transition: 0.4s all ease-in-out;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 40%;
+}
+
+.navbar-nav .nav-link:hover::before {
+    width: 40%;
+}
+
+.nav-btn {
+    background-color: #f69165;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    color: #fff !important;
+    transition: .4s all ease-in-out;
+    text-transform: uppercase;
+}
+
+.nav-btn:hover {
+    background-color: #dd5013;
+    color: #fff !important;
+}
+
+.nav-btn i {
+    padding-right: 10px;
+}
+
+.nav-btn a {
+    text-decoration: none;
+    color: white;
+
+}
+
+/* NAVBAR END */
+/* banner start */
+.banner {
+    background-image: url(../img/banner-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner-left {
+    padding-top: 100px;
+}
+
+.banner-left h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 35px;
+    background-color: #00CCE1;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.banner-left h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 35px;
+    background-color: #F69165;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.banner-left p {}
+
+.banner-right img {
+    margin-top: 20px;
+}
+
+.banner-button button {
+    border: none;
+    background-color: #00CCE1;
+    height: 35px;
+    width: 130px;
+    color: white;
+    font-weight: 500;
+}
+
+#banner-button-color {
+    background-color: #F69165;
+    margin-left: 20px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* banner END */
+/* WELCOME START */
+.welcome {
+    padding-top: 100px;
+}
+
+.welcome-right h1 {
+    font-size: 30px;
+}
+
+.tooth-part img {
+    width: 30px;
+}
+
+.tooth-part h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.tooth-part p {
+    font-size: 16px;
+    color: #A0A0A0;
+}
+
+/* WELCOME END */
+/* meet our doctors */
+.meet-doctor {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F9F9F9;
+}
+
+.meet-header h1 {
+    font-size: 35px;
+}
+
+.meet-header img {
+    width: 40px;
+}
+
+.meet-header p {
+    margin-bottom: 20px;
+}
+
+.doctor-details {
+    border-bottom: 4px solid #00CCE1;
+    transition: 0.2s all ease-in-out;
+    margin-bottom: 10px;
+
+}
+
+.doctor-details h5 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    transition: 0.2s all ease-in-out;
+    font-size: 20px;
+}
+
+.doctor-details:hover {
+    border-bottom: 4px solid #F69165;
+}
+
+.doctor-details:hover h5 {
+    color: #F69165;
+    transition: 0.2s all ease-in-out;
+}
+
+.meet-content {
+    position: relative;
+}
+
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+    z-index: 9999;
+    color: #fff;
+}
+
+.meet-doctor .doctor-details:hover .icon {
+    top: 45%;
+    opacity: 1;
+}
+
+.icon a i {
+
+    width: 50px;
+}
+.fa-facebook{
+    color: #4867AA;
+}
+.fa-google-plus{
+    color: #D64B40;
+}
+.icon a {
+    color: #00CCE1;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    transition: 0.4s all ease-in-out;
+}
+
+.icon a:hover {
+    background-color: #ffffff;
+}
+
+.overlay {
+    position: absolute;
+    background: #000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    z-index: 1000;
+    transition: .4s all ease-in-out;
+}
+
+.meet-doctor .doctor-details:hover .overlay {
+    opacity: .6;
+}
+
+/* meet our doctors */
+
+/* SERVICES STRAT */
+.services {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+.tooth-flex {
+    display: flex;
+}
+
+.tooth-flex img {
+    width: 30px;
+}
+
+.tooth-flex h5 {
+    padding-top: 10px;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.2s all ease-in-out;
+}
+
+.services-part {
+    border: 2px solid #EBEBEB;
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 15px;
+    transition: 0.2s all ease-in-out;
+}
+
+.services-part p {
+    color: #A0A0A0;
+}
+
+.services-part a {
+    text-decoration: none;
+    color: #F69165;
+}
+
+.services-part:hover {
+    border: 2px solid #F69165;
+}
+
+.services-part:hover .tooth-flex h5 {
+    color: #F69165;
+}
+
+/* SERVICES END */
+
+/* PRICING PART */
+.pricing {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F9F9F9;
+}
+
+.pricing-part {
+    border: 5px solid white;
+    width: 90%;
+    transition: 0.2s all ease-in-out;
+}
+
+.pricing-part h4 {
+    padding: 15px;
+    padding-bottom: 0;
+    font-size: 30px;
+    color: #00CCE1;
+    font-weight: 700;
+    transition: 0.2s all ease-in-out;
+}
+
+.pricing-part p {
+    margin-top: 0;
+    color: #707070;
+}
+
+.price-dollar {
+    background-color: white;
+    width: 100%;
+    transition: 0.2s all ease-in-out;
+}
+
+.price-dollar h1 {
+    font-weight: bold;
+    color: #00CCE1;
+    font-size: 35px;
+    margin-bottom: 0;
+    transition: 0.2s all ease-in-out;
+}
+
+.price-dollar p {
+    font-weight: bold;
+    color: #00CCE1;
+    transition: 0.2s all ease-in-out;
+}
+
+.pricing-part button {
+    border: none;
+    width: 130px;
+    height: 40px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #00CCE1;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: 0.2s all ease-in-out;
+}
+
+.pricing-part:hover {
+    border: 5px solid #F69469;
+}
+
+.pricing-part:hover .price-dollar {
+    background-color: #F69469;
+}
+
+.pricing-part:hover .price-dollar h1 {
+    color: white;
+}
+
+.pricing-part:hover .price-dollar p {
+    color: white;
+}
+
+.pricing-part:hover button {
+    background-color: #F69469;
+}
+
+.pricing-part:hover h4 {
+    color: #F69469;
+}
+
+/* PRICING PART */
+
+/* CAROUSEL */
+.clients {
+    background-image: url(../img/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.clients h1 {
+    color: white;
+}
+
+.clients p {
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    display: none;
+}
+
+/* CAROUSEL */
+
+
+/* Footer start */
+.footer {
+    background-color: #1B1B1B;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-1 p {
+    color: #B4B4B4;
+    font-size: 16px;
+}
+
+.footer-2 h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.footer-post {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.footer-post p {
+    margin-bottom: 0;
+    color: #B4B4B4;
+    font-size: 16px;
+}
+
+.footer-post p span {
+    color: #777777;
+}
+
+.footer-1 i {
+    color: white;
+    margin-right: 15px;
+    width: 35px;
+    text-align: center;
+}
+
+.footer-3 h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.footer-3 input {
+    border: 2px solid #B4B4B4;
+    height: 40px;
+    width: 55%;
+    padding: 15px;
+    background-color: transparent;
+    outline: none;
+    color: white;
+}
+
+.footer-3 button {
+    border: none;
+    background-color: #F69469;
+    color: white;
+    height: 40px;
+    width: 80px;
+}
+
+.footer-post-right {
+    margin-left: 15px;
+}
+
+.footer-ti {
+    margin-bottom: 10px;
+}
+
+.fft {
+    margin-top: 20px;
+}
+
+.footer-follow {
+    display: flex;
+
+}
+
+.footer-follow i {
+    color: white;
+    margin-right: 15px;
+    font-size: 25px;
+    height: 45px;
+    width: 45px;
+    border: 1px solid #B4B4B4;
+    line-height: 45px;
+    padding-left: 12px;
+    transition: 0.3s all ease-in-out;
+}
+
+.footer-follow i:hover {
+    background-color: #F69469;
+    border: 1px solid #F69469;
+}
+
+/* Footer END */
+.copyright {
+    background-color: #161616;
+}
+
+.copyright-bar p {
+    padding: 20px;
+    color: #777777;
+    font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 0;
+}
+
+.copyright-bar p span {
+    color: #00CCE1;
+}
